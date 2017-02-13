@@ -1,0 +1,29 @@
+
+body {
+  background:#161616;
+}
+
+.sidenav {
+  position:fixed;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:$nav-size; height:100vh;
+  right:0;
+  border-left: 1px solid rgba(200, 200, 200, .5);
+  background: rgba(200, 200, 200, .1);
+  &-sec {
+    &-item {
+      width: $nav-size; height: $nav-size;
+      border-top: 1px solid rgba(200, 200, 200, .5);
+      &:last-child {
+        border-bottom: 1px solid rgba(200, 200, 200, .5);
+      }
+      h3 {
+        color: $c-head;
+        line-height: $nav-size;
+        text-align: center;
+      }
+    }
+  }
+}
