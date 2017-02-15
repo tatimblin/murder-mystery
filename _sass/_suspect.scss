@@ -1,0 +1,14 @@
+.slide {
+    
+}
+
+.suspect {
+    &-bio {
+        &-item {
+            color: $c-text;
+            h1 {
+                font-size: 6em;
+            }
+        }
+    }
+}
