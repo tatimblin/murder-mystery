@@ -1,8 +1,3 @@
-
-body {
-  background:#161616;
-}
-
 .sidenav {
   position:fixed;
   display:flex;
@@ -10,14 +5,14 @@ body {
   justify-content: space-between;
   width:$nav-size; height:100vh;
   right:0;
-  border-left: 1px solid rgba(200, 200, 200, .5);
-  background: rgba(200, 200, 200, .1);
+  border-left: 1px solid rgba(200, 200, 200, .3);
+  background: rgba(100, 100, 100, .1);
   &-sec {
     &-item {
       width: $nav-size; height: $nav-size;
-      border-top: 1px solid rgba(200, 200, 200, .5);
+      border-top: 1px solid rgba(200, 200, 200, .3);
       &:last-child {
-        border-bottom: 1px solid rgba(200, 200, 200, .5);
+        border-bottom: 1px solid rgba(200, 200, 200, .3);
       }
       h3 {
         color: $c-head;
@@ -26,4 +21,5 @@ body {
       }
     }
   }
+    z-index: 100;
 }
