@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Tristan Timblin"
-date:   2017-02-13 13:57:51 -0500
-categories: jekyll update
----
-German guy is he a spy? people think so and were against me
-Long time sales rep, government sector, HEY!
