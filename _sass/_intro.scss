@@ -1,0 +1,10 @@
+.intro {
+    &-content {
+        max-width: 800px;
+        margin: auto;
+        p {
+            line-height: 2.5em;
+            color: $c-text;
+        }
+    }
+}

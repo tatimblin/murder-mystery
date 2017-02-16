@@ -1,0 +1,11 @@
+.lineup {
+    vertical-align: middle;
+    svg {
+        vertical-align: top;
+    }
+    &-content {
+        p {
+            color: $c-bg;
+        }
+    }
+}

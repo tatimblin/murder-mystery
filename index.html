@@ -3,6 +3,12 @@ layout: default
 ---
 
     <div id="fullpage">
+        <div class="section">
+            {% include intro.html %}
+        </div>
+        <div class="section">
+            {% include lineup.html %}
+        </div>
         {% for post in site.posts %}
             <div class="section">
                 {% include suspect.html %}
