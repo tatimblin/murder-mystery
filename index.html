@@ -10,7 +10,10 @@ layout: default
             {% include lineup.html %}
         </div>
         {% for post in site.posts %}
-            <div class="section">
+            <div class="section" style="background: radial-gradient(
+      rgba(22, 22, 22, 0.93) 0%, 
+      rgba(12, 12, 12, 1) 60%
+    ), url('https://scenedoc.com/wp-content/uploads/2015/05/local-police-banner-large.jpg'); background-size:cover;">
                 {% include suspect.html %}
             </div>
         {% endfor %}
