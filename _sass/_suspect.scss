@@ -4,10 +4,40 @@
 
 .suspect {
     &-bio {
+        padding: 0 $mobile-nav-size 0 0;
         &-item {
+            width:90%;
+            margin:0 auto;
             color: $c-text;
+            &-img {
+                width:100%; height:300px;
+            }
             h1 {
-                font-size: 6em;
+                font-size: 2em;
+            }
+        }
+    }
+}
+
+// Desktop Styles Here
+@media only screen and (min-width: $on-palm) {
+    .suspect {
+        &-bio {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            max-width: $content-width + 200px;
+            margin: 0 auto;
+            padding: 0 $nav-size 0 0;
+            &-item {
+                width:45%;
+                &-img {
+                    height: 80vh;
+                }
+                h1 {
+                    font-size: 6em;
+                }
             }
         }
     }
