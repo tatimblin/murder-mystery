@@ -4,5 +4,7 @@ title:  "Ethan Bohan"
 slug: "eb"
 date:   2017-02-13 13:57:51 -0500
 categories: jekyll update
+
+background: officeFloor.jpg
 ---
 Long time worker, fed up with others passing him. Not being heard. He could run the co better.
