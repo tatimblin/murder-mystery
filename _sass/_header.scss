@@ -16,19 +16,31 @@
   width:var(--nav-size); height:100vh;
   right:0;
   border-left: 1px solid rgba(200, 200, 200, .3);
-  background: rgba(100, 100, 100, .1);
+  background: rgba(30, 30, 40, .8);
   &-sec {
     &-item {
-      width: var(--nav-size); height: var(--nav-size);
-      border-top: 1px solid rgba(200, 200, 200, .3);
-      &:last-child {
-        border-bottom: 1px solid rgba(200, 200, 200, .3);
-      }
-      h3 {
-        color: $c-head;
-        line-height: var(--nav-size);
-        text-align: center;
-      }
+        width: var(--nav-size); height: var(--nav-size);
+        border-top: 1px solid rgba(200, 200, 200, .3);
+        border-bottom: none;
+        &:last-child {
+            border-bottom: 1px solid rgba(200, 200, 200, .3);
+        }
+        h3 {
+            color: $c-head;
+            line-height: var(--nav-size);
+            text-align: center;
+            text-transform: uppercase;
+        }
+        transition: all 300ms ease-in-out;
+        &:hover {
+            background-color: rgba(255, 255, 255, .9);
+            h3 {
+                color: darken($c-head, 65%);
+            }
+        }
+    }
+    a:hover {
+        text-decoration: none;  
     }
   }
     z-index: 100;
