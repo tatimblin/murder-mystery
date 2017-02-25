@@ -14,3 +14,11 @@
         }
     }
 }
+
+svg #sus-carl {
+    transform: translateY(0px);
+    transition: all 300ms ease-in-out;
+    &:hover {
+        transform: translateY(30px);
+    }
+}
