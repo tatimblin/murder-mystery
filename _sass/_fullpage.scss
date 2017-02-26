@@ -29,6 +29,7 @@ html.fp-enabled,
     -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
     -moz-box-sizing: border-box; /* <=28 */
     box-sizing: border-box;
+    filter:grayscale(100%);
 }
 .fp-slide {
     float: left;
@@ -64,6 +65,8 @@ html.fp-enabled,
     position: relative;
 }
 .fp-controlArrow {
+    display:none;
+    
     -webkit-user-select: none; /* webkit (safari, chrome) browsers */
     -moz-user-select: none; /* mozilla browsers */
     -khtml-user-select: none; /* webkit (konqueror) browsers */

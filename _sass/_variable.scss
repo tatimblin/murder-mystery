@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Kadwa:700|PT+Mono');
 
-$nav-size: 50px;
 $heading: 'Kadwa', serif;
 $body: 'PT Mono', serif;
 $c-head: #dbdbdb;
@@ -11,3 +10,12 @@ $c-head: #dbdbdb;
 $c-bg: #161616;
 $c-text: #dbdbdb;
 $c-active: #fcd685;
+
+// ### SIZING ###
+
+$nav-size: 50px;
+$mobile-nav-size: 35px;
+
+// ### OTHER ###
+
+$redacted_border: 1px solid $c-text;
