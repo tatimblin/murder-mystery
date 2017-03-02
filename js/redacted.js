@@ -11,9 +11,9 @@ var span = document.getElementsByClassName("close")[0];
 var allQuestions = [];
 // Store each question in an object.
 allQuestions[0] = {
-    question: "Who hade access to Richard's office?",
+    question: "Who had access to Richard's office?",
     choices: ["Alice, Edwin, and Theodore", "Alice and Simon", "Simon, Walter, and Edwin", "Everyone"],
-    correctAnswer: 4
+    correctAnswer: 3
 };
 allQuestions[1] = {
     question: "Coroner's report shows the time of death at?",
@@ -66,12 +66,19 @@ window.onclick = function(event) {
 var userScore = 0;
 
 // When the NEXT button is clicked, the user's score is updated, the current question is hidden, and the next question is revealed.
-$("#next").click(function() {
+$(".choice").click(function() {
     
-  if($("form input[name=answer]:checked").val() == allQuestions[questionNum].correctAnswer) {
-    userScore++;
-  }
+    var selected = event.target.id;
+    var selectedTxt = allQuestions[questionNum].choices[selected[6]];
+    var correct = allQuestions[questionNum].correctAnswer;
+
+    if(selected[6] == correct) {
+        userScore++;
+        console.log('Now your score is: ' + userScore);
+    }
     modal.style.display = "none";
+    $('#' + questionNum).html(selectedTxt);
+    $('#' + questionNum).css('color', '#161616');
     
 });
 
