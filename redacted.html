@@ -1,7 +1,29 @@
 ---
 layout: default
 ---  
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
+  <!-- Modal content -->
+  <div class="modal-content">
+
+    <span class="close">&times;</span>
+<!--
+    <h1 id="quest">A Question!</h1>
+    <p id="ansA">a)</p>
+    <p id="ansB">b)</p>
+    <p id="ansC">c)</p>
+    <p id="ansD">d)</p>
+-->
+   <h1 id="question">Question</h1>
+   <div id="choice0">a)</div>
+   <div id="choice1">b)</div>
+   <div id="choice2">c)</div>
+   <div id="choice3">d)</div>
+
+  </div>
+
+</div>
 <div class="redacted" onmousedown='return false;' onselectstart='return false;'>
     <div class="redacted-doc">
         <div class="redacted-doc-head">
@@ -32,7 +54,19 @@ layout: default
             </div>
         </div>
         <p>
-        Lorem ipsum dolor sit amet, <span>consectetur adipisicing</span> elit. Voluptatibus totam itaque quod ex odit harum doloremque culpa, illum pariatur dicta commodi quibusdam debitis tempora cumque corporis vitae aliquid, nulla voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus totam itaque quod ex odit harum doloremque culpa, illum pariatur dicta commodi quibusdam debitis tempora cumque corporis vitae aliquid, nulla voluptas.
+        Lorem ipsum dolor sit amet, <span class="redact" id="0">consectetur adipisicing</span> elit. Voluptatibus totam itaque quod ex odit harum doloremque culpa, illum pariatur dicta commodi quibusdam debitis tempora cumque corporis vitae aliquid, nulla voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus totam itaque quod ex odit harum doloremque culpa, illum pariatur dicta commodi quibusdam debitis tempora cumque corporis vitae aliquid, nulla voluptas.
+        </p>
+        <p>
+        Lorem ipsum dolor sit amet, <span class="redact" id="1">consectetur adipisicing</span> elit. Voluptatibus totam itaque quod ex odit harum doloremque culpa, illum pariatur dicta commodi quibusdam debitis tempora cumque corporis vitae aliquid, nulla voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus totam itaque quod ex odit harum doloremque culpa, illum pariatur dicta commodi quibusdam debitis tempora cumque corporis vitae aliquid, nulla voluptas.
+        </p>
+        <p>
+        Lorem ipsum dolor sit amet, <span class="redact" id="2">consectetur adipisicing</span> elit. Voluptatibus totam itaque quod ex odit harum doloremque culpa, illum pariatur dicta commodi quibusdam debitis tempora cumque corporis vitae aliquid, nulla voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus totam itaque quod ex odit harum doloremque culpa, illum pariatur dicta commodi quibusdam debitis tempora cumque corporis vitae aliquid, nulla voluptas.
         </p>
     </div>
 </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+<script type="text/javascript" src="{{site.baseurl}}/js/redacted.js"></script>
