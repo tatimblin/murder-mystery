@@ -11,6 +11,7 @@
         line-height: 3em;
     }
     span {
+        padding:2px 5px;
         background: $c-text;
         user-select: none;
         &:before {
@@ -80,7 +81,7 @@
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 60%;
 }
 
 /* The Close Button */
@@ -97,3 +98,26 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+#question {
+    color: lighten($c-bg, 10%);
+}
+
+.choice {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-family: $body;
+    color: $c-bg;
+    cursor: pointer;
+    background: lighten( $c-text, 10%);
+    transition: all 100ms ease-in-out;
+    &:hover {
+        color: lighten($c-bg, 90%);
+        background: darken( $c-text, 10%);
+    }
+}
+
+
+
+
+

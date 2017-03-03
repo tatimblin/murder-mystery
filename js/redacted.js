@@ -1,9 +1,7 @@
 // Get the modal
 var modal = document.getElementById('myModal');
-
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
@@ -39,13 +37,13 @@ $('.redact').on('click',function(){
     // Display first question
     $("#question").html(allQuestions[questionNum].question);
 
-    $("#choice0").html(allQuestions[questionNum].choices[0]);
+    $("#choice0").html("a) " + allQuestions[questionNum].choices[0]);
 
-    $("#choice1").html(allQuestions[questionNum].choices[1]);
+    $("#choice1").html("b) " + allQuestions[questionNum].choices[1]);
 
-    $("#choice2").html(allQuestions[questionNum].choices[2]);
+    $("#choice2").html("c) " + allQuestions[questionNum].choices[2]);
     
-    $("#choice3").html(allQuestions[questionNum].choices[3]);
+    $("#choice3").html("d) " + allQuestions[questionNum].choices[3]);
 });
 
 
@@ -53,7 +51,6 @@ $('.redact').on('click',function(){
 span.onclick = function() {
     modal.style.display = "none";
 }
-
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
@@ -80,6 +77,16 @@ $(".choice").click(function() {
     $('#' + questionNum).html(selectedTxt);
     $('#' + questionNum).css('color', '#161616');
     
+    localStorage.setItem(questionNum, selected[6]);
+});
+
+$('.redact').each(function(i, obj) {
+    console.log("Counting " + i);
+    var savedSelec = localStorage.getItem(i);
+    $("#" + i).html(allQuestions[i].choices[savedSelec]);
+    if (localStorage.getItem(i) != null) {
+        $('#' + i).css('color', '#161616');
+    }
 });
 
 
