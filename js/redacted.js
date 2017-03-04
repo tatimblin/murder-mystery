@@ -81,7 +81,7 @@ $(".choice").click(function() {
 });
 
 $('.redact').each(function(i, obj) {
-    console.log("Counting " + i);
+    //console.log("Counting " + i);
     var savedSelec = localStorage.getItem(i);
     $("#" + i).html(allQuestions[i].choices[savedSelec]);
     if (localStorage.getItem(i) != null) {
