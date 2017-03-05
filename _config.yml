@@ -9,9 +9,8 @@
 title: Cold Case
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The case of Richard Devaul's murder has been cold for over a decade. In light 
+  of new evidence from a lost internal company investigation we are reopening the case, and it's up to you to piece together the clues and find the murderer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tatimblin.github.io/murder-mystery" # the base hostname & protocol for your site
 twitter_username: jekyllrb
