@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: fullpage
 ---
 
     <div id="fullpage">
@@ -15,6 +15,7 @@ layout: default
       rgba(12, 12, 12, 1) 60%
     ), url('{{ site.baseurl }}/img/suspect/{{ post.slug }}/{{ post.background }}'); background-size:cover;">
                 {% include suspect.html %}
+                {% include transcript.html %}
                 {% include id.html %}
             </div>
         {% endfor %}
