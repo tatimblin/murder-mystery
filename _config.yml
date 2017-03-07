@@ -11,11 +11,18 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   The case of Richard Devaul's murder has been cold for over a decade. In light 
   of new evidence from a lost internal company investigation we are reopening the case, and it's up to you to piece together the clues and find the murderer.
+<<<<<<< HEAD
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 =======
 baseurl: "/murder-mystery" # the subpath of your site, e.g. /blog
 url: "https://tatimblin.github.io" # the base hostname & protocol for your site
+=======
+
+baseurl: "/murder-mystery" # the subpath of your site, e.g. /blog
+url: "https://tatimblin.github.io" # the base hostname & protocol for your site
+
+>>>>>>> b2a4186e0ff5f980da6265b5fbe55a2f5fefb10c
 twitter_username: jekyllrb
 github_username:  jekyll
 
