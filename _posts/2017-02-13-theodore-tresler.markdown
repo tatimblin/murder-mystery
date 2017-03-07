@@ -7,4 +7,4 @@ categories: suspect
 
 background: washington.jpg
 ---
-Immigrating to America in the early 1900's Theodore had no idea the complications his background would bring. Even his now faint accent draws whispers all around him. Will it ever be normal again for a German in this counrty?
+Immigrating to America in the early 1900's Theodore had no idea the complications his background would bring. Even his now faint accent draws whispers all around him, as the head of sales for raytheon. As ludacrous the rumors were, could there be any truth to them?

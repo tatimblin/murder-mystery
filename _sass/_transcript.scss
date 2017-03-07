@@ -1,0 +1,32 @@
+.transcript {
+    
+}
+
+.transcript-body {
+    max-width: 600px;
+    //height: 80vh;
+    //overflow:auto;
+    margin: 0 auto;
+    padding:0 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    &-item {
+        position: relative;
+        display: inline-block;
+        padding:5px 10px;
+        background: rgba(255, 255, 255, .2);
+        p {
+            margin: 0;
+            line-height: 2em;
+        }
+    }
+    &-cop {
+        align-self: flex-start;
+        border-radius: 10px 10px 10px 0;
+    }
+    &-sus {
+        align-self: flex-end;
+        border-radius: 10px 10px 0 10px;
+    }
+}
