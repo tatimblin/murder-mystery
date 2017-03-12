@@ -1,21 +1,19 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Cold Case
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "https://tatimblin.github.io/" # the subpath of your site, e.g. /blog
-url: "murder-mystery/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
-markdown: kramdown
+  email: your-email@domain.com
+  description: > # this means to ignore newlines until "baseurl:"
+ +
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
+ +  
+ +
+ +  The case of Richard Devaul's murder has been cold for over a decade. In light 
+ +  of new evidence from a lost internal company investigation we are reopening the case, and it's up to you to piece together the clues and find the murderer.
+ +
+  baseurl: "" # the subpath of your site, e.g. /blog
+  url: "" # the base hostname & protocol for your site
+ +
+ +
+  twitter_username: jekyllrb
+  github_username:  jekyll
+  
