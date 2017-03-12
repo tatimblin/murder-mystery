@@ -38,7 +38,7 @@ $(function(){
   
     
   $('p.typebyletter').TypeByLetter({
-    speed: 100,
+    speed: 200,
     callback: function()
       {
   $('span.typebyletter').TypeByLetter({

@@ -81,7 +81,7 @@ function arraysEqual() {
 $(function(){
    $.fn.TypeByLetter = function(options) {
     var settings = $.extend({
-      speed: 100,
+      speed: 200,
       content: $(this).text(),
       append: false,
       callback: function() {}
