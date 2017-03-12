@@ -37,12 +37,13 @@ $(function(){
 
   
     
-  $('h1.typebyletter').TypeByLetter({
+  $('p.typebyletter').TypeByLetter({
     speed: 100,
-    callback: function(){
-      $('span.typebyletter').TypeByLetter({
-        speed: 150,
-        content: "Created By ME!"
+    callback: function()
+      {
+  $('span.typebyletter').TypeByLetter({
+    speed: 150,
+    content: "Created By ME!"
       });
     }
   });
