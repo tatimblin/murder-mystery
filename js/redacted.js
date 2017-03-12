@@ -28,6 +28,7 @@ allQuestions[3] = {
     choices: ["Absorbed", "Ingested", "Inhaled", "Injected"],
     correctAnswer: 1
 };
+<<<<<<< HEAD
 allQuestions[4] = {
     question: "Who risked ruining their family reputation?",
     choices: ["Ethan", "Simon", "William", "Alice" ],
@@ -83,6 +84,9 @@ allQuestions[14] = {
     choices: ["A speech announcing who would take Robert’s place", "A hint to an affair", "A champagne glass"],
     correctAnswer: 0
 };
+=======
+
+>>>>>>> master
 
 
 
