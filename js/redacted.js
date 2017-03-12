@@ -19,10 +19,72 @@ allQuestions[1] = {
     correctAnswer: 2
 };
 allQuestions[2] = {
-    question: "Richard had signs of iritation on/in his?",
+    question: "Richard had signs of irritation on/in his?",
     choices: ["Stomach", "Throat", "Hands", "Eyes"],
     correctAnswer: 0
 };
+allQuestions[3] = {
+    question: "How did Robert recieve the chemical?",
+    choices: ["Absorbed”, “Ingested”, “Inhaled”, “Injected”],
+    correctAnswer: 1
+};
+allQuestions[4] = {
+    question: "Who risked ruining their family reputation?",
+    choices: ["Ethan”, “Simon”, “William”, “Alice” ],
+    correctAnswer: 3
+};
+allQuestions[5] = {
+    question: "How did they risk ruining their family reputation?",
+    choices: ["Selling company information”, “Stealing from the company”, “Having an affair with Robert”, “Having an affair with William”],
+    correctAnswer: 0
+};
+allQuestions[6] = {
+    question: "Who risked ruining their family reputation?",
+    choices: ["his”, “her”],
+    correctAnswer: 1
+};
+allQuestions[7] = {
+    question: "Who was believed to be sabotaging Raytheon Technologies?",
+    choices: [“Simon”,"Ethan”, “Alice”, “Theodore”],
+    correctAnswer: 3
+};
+allQuestions[8] = {
+    question: "Why was this person thought to be sabotaging Raytheon Technologies?",
+    choices: [“A vendetta against Robert”, "Ties to Germany”, “Too close to Robert”],
+    correctAnswer: 1
+};
+allQuestions[9] = {
+    question: "Who was resentful towards Robert?",
+    choices: [“Theodore”,"Ethan”, “Alice”, “Simon”],
+    correctAnswer: 1
+};
+allQuestions[10] = {
+    question: "Who was resentful towards Robert?",
+    choices: ["him”, “her”],
+    correctAnswer: 0
+};
+allQuestions[11] = {
+    question: "Who was resentful of how their life turned out?",
+    choices: ["Ethan”, “Simon”, “Alice”, “Theodore”],
+    correctAnswer: 1
+};
+allQuestions[12] = {
+    question: "Where did this person need money from?",
+    choices: ["Selling company information”, “Embezzling company money”, “An inheritance”],
+    correctAnswer: 2
+};
+allQuestions[13] = {
+    question: "Who was constantly belittled by Robert?",
+    choices: [“William”, “Alice”, "Ethan”,  “Theodore”],
+    correctAnswer: 0
+};
+allQuestions[14] = {
+    question: "What was found at the crime scene that would anger the employees? ",
+    choices: ["A speech announcing who would take Robert’s place”, “A hint to an affair”, “A champagne glass”],
+    correctAnswer: 0
+};
+
+
 
 // Create a variable to store the index of the current question
 var questionNum = 1;
