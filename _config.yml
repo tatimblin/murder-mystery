@@ -17,10 +17,17 @@ description: > # this means to ignore newlines until "baseurl:"
 
   The case of Richard Devaul's murder has been cold for over a decade. In light 
   of new evidence from a lost internal company investigation we are reopening the case, and it's up to you to piece together the clues and find the murderer.
+<<<<<<< HEAD
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
+=======
+
+baseurl: "/murder-mystery" # the subpath of your site, e.g. /blog
+url: "https://tatimblin.github.io/murder-mystery/" # the base hostname & protocol for your site
+
+>>>>>>> 5bd8ca8df4be543f669e2eddd9c0d9ae58fb04d5
 twitter_username: jekyllrb
 github_username:  jekyll
 
