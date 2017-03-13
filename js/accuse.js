@@ -81,7 +81,7 @@ function arraysEqual() {
 $(function(){
    $.fn.TypeByLetter = function(options) {
     var settings = $.extend({
-      speed: 200,
+      speed: 3000,
       content: $(this).text(),
       append: false,
       callback: function() {}
@@ -118,11 +118,11 @@ $(function(){
   
     
   $('p.typebyletter').TypeByLetter({
-    speed: 200,
+    speed: 20,
     callback: function()
       {
   $('span.typebyletter').TypeByLetter({
-    speed: 150,
+    speed: 50,
     content: "Created By ME!"
       });
     }
