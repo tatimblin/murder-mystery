@@ -24,6 +24,13 @@ transcript[3] = {
     sus: ["I helped Robert with anything he needed done right.", "Sometimes in business things need to be done discreetly, that’s where I came in.", "That’s Robert’s business.", "That’s their business, I’ve never done anything to wrong them.", "People or you?", "Robert trusted me with a lot on the business side of his life, but personally we were about as distant as strangers, apparently.", "Robert only cared about himself and he made that clear to me."]
 };
 
+$( ".section" ).each(function( index ) {
+    if ( $( ".section" ).is( ".tt" ) ) {
+        var suspectCount = 0;
+        console.log('suspectCount was updated: ' + suspectCount);
+    }
+});
+
 //$("#1").html(transcript[0].cop[0]);
 //$("#2").html(transcript[0].sus[0]);
 $(".3").html(transcript[suspectCount].cop[0]);
@@ -33,8 +40,6 @@ $('.transcript-next').on('click',function(){
 	var cop = transcript[suspectCount].cop[msgCount];
 	var sus = transcript[suspectCount].sus[msgCount];
 	if (transcript[0].cop.length > msgCount && transcript[0].sus.length > msgCount) {
-		msgCount++
-	
 	
 		cop1 = transcript[suspectCount].cop[msgCount];
 		sus2 = transcript[suspectCount].sus[msgCount];
@@ -45,24 +50,25 @@ $('.transcript-next').on('click',function(){
 		$(".2").html(sus2);
 		$(".3").html(cop3);
 		$(".4").html(sus4);
+        
+        msgCount++
 	}
 	console.log(msgCount);
 });
 
 $('.transcript-prev').on('click',function(){ 
 	if (msgCount >= 1) {
-		msgCount--
-	
-	
-	cop1 = transcript[suspectCount].cop[msgCount];
-	sus2 = transcript[suspectCount].sus[msgCount];
-	cop3 = transcript[suspectCount].cop[msgCount + 1];
-	sus4 = transcript[suspectCount].sus[msgCount + 1];
-	
-	$(".1").html(cop1);
-	$(".2").html(sus2);
-	$(".3").html(cop3);
-	$(".4").html(sus4);
+        msgCount--
+       
+        cop1 = transcript[suspectCount].cop[msgCount];
+        sus2 = transcript[suspectCount].sus[msgCount];
+        cop3 = transcript[suspectCount].cop[msgCount + 1];
+        sus4 = transcript[suspectCount].sus[msgCount + 1];
+
+        $(".1").html(cop1);
+        $(".2").html(sus2);
+        $(".3").html(cop3);
+        $(".4").html(sus4);
 	}
 	console.log(msgCount);
 });
