@@ -1,0 +1,41 @@
+.clue{
+    position:relative;
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+    max-width: 1000px;
+    padding:1em;
+}
+
+.clue-container{
+  max-width:70vw; //height: 70vh;
+  margin:0 auto;
+}
+
+.clue-container div{
+    display:inline-block;
+    display:none; 
+    img {
+        align-self:center;
+    }
+}
+
+.clue-btn {
+    width:50px; height:50px;
+    border-radius: 50%;
+    //padding:10px 5px;
+    background: $c-bg;
+    border: 4px solid $c-head;
+    transition: all 200ms ease-in-out;
+    &:hover {
+        background: $c-head;
+    }
+}
+
+.clue-next{
+    
+}
+
+.clue-prev{
+    
+}
