@@ -26,8 +26,8 @@ transcript[3] = {
 
 //$("#1").html(transcript[0].cop[0]);
 //$("#2").html(transcript[0].sus[0]);
-$("#3").html(transcript[suspectCount].cop[0]);
-$("#4").html(transcript[suspectCount].sus[0]);
+$(".3").html(transcript[suspectCount].cop[0]);
+$(".4").html(transcript[suspectCount].sus[0]);
 
 $('.transcript-next').on('click',function(){ 
 	var cop = transcript[suspectCount].cop[msgCount];
@@ -41,10 +41,10 @@ $('.transcript-next').on('click',function(){
 		cop3 = transcript[suspectCount].cop[msgCount + 1];
 		sus4 = transcript[suspectCount].sus[msgCount + 1];
 
-		$("#1").html(cop1);
-		$("#2").html(sus2);
-		$("#3").html(cop3);
-		$("#4").html(sus4);
+		$(".1").html(cop1);
+		$(".2").html(sus2);
+		$(".3").html(cop3);
+		$(".4").html(sus4);
 	}
 	console.log(msgCount);
 });
@@ -59,10 +59,10 @@ $('.transcript-prev').on('click',function(){
 	cop3 = transcript[suspectCount].cop[msgCount + 1];
 	sus4 = transcript[suspectCount].sus[msgCount + 1];
 	
-	$("#1").html(cop1);
-	$("#2").html(sus2);
-	$("#3").html(cop3);
-	$("#4").html(sus4);
+	$(".1").html(cop1);
+	$(".2").html(sus2);
+	$(".3").html(cop3);
+	$(".4").html(sus4);
 	}
 	console.log(msgCount);
 });
