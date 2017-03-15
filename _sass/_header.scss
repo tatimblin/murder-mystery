@@ -38,6 +38,11 @@
                 color: darken($c-head, 65%);
             }
         }
+        img {
+            height: 40px;
+            margin: 4px 12px;
+            text-align: center;
+        }
     }
     a:hover {
         text-decoration: none;  
