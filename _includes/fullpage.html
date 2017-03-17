@@ -16,7 +16,10 @@
             sectionsColor: ['#161616', '#dbdbdb', '#161616', '#161616', '#161616', '#161616', '#161616', '#161616'],
             anchors: ['intro', 'lineup', 'tt', 'sd', 'eb', 'wh', 'ar', 'clues'],
             menu: '#menu',
-            scrollingSpeed: 800
+            scrollingSpeed: 800,
+            afterLoad: function(anchorLink, index){
+                whosActive();
+			 }
         });
     });
 </script>
