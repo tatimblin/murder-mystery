@@ -6,12 +6,12 @@ var murderer = 0;
 $("#sus-edwin").click(function() {
     $('#accuseSuspect').html("Edwin Bolman");
     correct = 0;
-    murderer = 0;
+    murderer = 1;
 });
 $("#sus-theodore").click(function() {
     $('#accuseSuspect').html("Theodore Tresler");
     correct = 0;
-    murderer = 1;
+    murderer = 0;
 });
 $("#sus-alice").click(function() {
     $('#accuseSuspect').html("Alice Roberts");
