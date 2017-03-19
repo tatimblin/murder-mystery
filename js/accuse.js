@@ -6,12 +6,12 @@ var murderer = 0;
 $("#sus-edwin").click(function() {
     $('#accuseSuspect').html("Edwin Bolman");
     correct = 0;
-    murderer = 0;
+    murderer = 1;
 });
 $("#sus-theodore").click(function() {
     $('#accuseSuspect').html("Theodore Tresler");
     correct = 0;
-    murderer = 1;
+    murderer = 0;
 });
 $("#sus-alice").click(function() {
     $('#accuseSuspect').html("Alice Roberts");
@@ -39,7 +39,7 @@ $(".accuse-btn").click(function() {
 // Check if arrays are equal
 function arraysEqual() {
     
-    var values = [3, 2, 0];
+    var values = [3, 2, 0, 1, 3, 0, 1, 3, 1, 1, 0, 1, 2, 0, 0];
     var selected = [];
     
     for(cnt = 0; cnt < values.length; cnt++) {
@@ -61,17 +61,20 @@ function arraysEqual() {
         }
     }
     console.log(correct);
-    var needed = (values.length - 5) - correct;
+    var needed = (values.length - 3) - correct;
     if (correct > needed) {
         if (murderer == 1) {
             console.log("You Got Him/Her!")
+            // Correct
             $('#accuseScore').html("You've cracked the case!");
         } else {
             console.log("Guess Again")
-            $('#accuseScore').html("Check The Evidence Again");
+            // Wrong suspect
+            $('#accuseScore').html("Check The Evidence Again.");
         }
     } else {
-        $('#accuseScore').html("Gather More Evidence To Convict.");
+        // Not enough correct
+        $('#accuseScore').html("Your case isn't strong enough.");
     }
 }
 

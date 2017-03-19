@@ -40,8 +40,13 @@
     }
     &-btn {
         padding:40px 20px;
+        cursor: pointer;
         background: #ccc;
         border-radius: 0 2px 2px 0;
+        transition: all 300ms ease-in-out;
+        &:hover {
+            background: darken(#ccc, 5%);
+        }
     }
 }
 

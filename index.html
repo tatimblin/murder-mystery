@@ -10,7 +10,7 @@ layout: fullpage
             {% include lineup.html %}
         </div>
         {% for post in site.categories.suspect %}
-            <div class="section" style="background: radial-gradient(
+            <div class="section {{ post.slug }}" style="background: radial-gradient(
       rgba(22, 22, 22, 0.90) 0%, 
       rgba(12, 12, 12, 1) 60%
     ), url('{{ site.baseurl }}/img/suspect/{{ post.slug }}/{{ post.background }}'); background-size:cover;">
@@ -19,8 +19,10 @@ layout: fullpage
                 {% include id.html %}
             </div>
         {% endfor %}
+        <div class="section">
+            {% include clues.html %}
+        </div>
     </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-
+  <script type="js/intro.js"></script>
