@@ -2,10 +2,13 @@
     &-content {
         max-width: 800px;
         margin: auto;
+        h1 {
+            padding: 1rem;
+        }
         p {
             line-height: 1.5em;
             color: $c-text;
-            padding: 1rem;
+            padding: 0 1rem;
         }
     }
 }
