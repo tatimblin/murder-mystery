@@ -4,6 +4,7 @@ title:  "Theodore Tresler"
 slug: "tt"
 date:   2017-02-13 13:57:51 -0500
 categories: suspect
+title_job:  "Head of Sales"
 
 background: washington.jpg
 ---
