@@ -7,4 +7,4 @@ categories: suspect
 
 background: washington.jpg
 ---
-Immigrating to America in the early 1900's Theodore had no idea the complications his background would bring. Even his now faint accent draws whispers all around him, as the head of sales for raytheon. As ludacrous the rumors were, could there be any truth to them?
+Immigrating to America in the early 1900's Theodore had no idea the complications his background would bring. Even now as the head of sales for Raytheon Technologies his faint accent draws whispers all around him. As ludicrous as the rumors were, could there be any truth to them?

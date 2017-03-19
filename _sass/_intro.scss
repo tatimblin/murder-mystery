@@ -1,4 +1,9 @@
-.intro {
+.intro { 
+		background: url('{{site.baseurl}}/img/suspect/cold-case.png;
+        background-size:contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background:radial-gradient(rgba(22, 22, 22, 0.90) 0%),rgba(12, 12, 12, 1) 60%);              
     &-content {
         max-width: 800px;
         margin: auto;
