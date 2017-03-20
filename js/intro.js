@@ -66,7 +66,7 @@ $(function(){
       {
   $('p.typebyletter').TypeByLetter({
     speed: 50,
-    content: "As the party was winding down CEO, Richard DeVaul, went into his office to retrieve a speech he prepared. After not returned for some time, a coworker went looking for him in his office only to find him dead on the ground. The police were called and an investigation into the murder of Richard DeVaul was launched, but no arrests were ever made and eventually the case went cold... Years later new evidence resurfaced, and the case has been re-opened. Find clues and bring the murderer to justice… you’re on the case."
+    content: "As the party was winding down CEO, Richard DeVaul, went into his office to retrieve a speech he prepared. After having not returned for some time, a coworker went looking for him in his office only to find him dead on the ground. The police were called and an investigation into the murder of Richard DeVaul was launched, but no arrests were ever made and eventually the case went cold... Years later new evidence resurfaced, and the case has been re-opened. Find clues and bring the murderer to justice… you’re on the case."
       });
     }
   });
