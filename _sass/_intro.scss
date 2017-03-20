@@ -28,3 +28,10 @@
         }
     }
 }
+
+.intro-instruct {
+    position: absolute;
+    bottom:0;
+    right:$nav-size + 10px;
+    text-align: right;
+}
