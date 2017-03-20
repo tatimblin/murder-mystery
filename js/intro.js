@@ -1,3 +1,26 @@
+
+//MODAL
+
+// When the user clicks on the button, open the modal 
+$('.tranBtn').click(function() {
+    $(".suspect-modal").addClass('suspect-show');
+    $(".suspect-tran").addClass('suspect-show');
+});
+
+$('.cardBtn').click(function() {
+    $(".suspect-modal").addClass('suspect-show');
+    $(".suspect-card").addClass('suspect-show');
+    console.log('Button pressed');
+});
+
+$('span').click(function() {
+    $(".suspect-modal").removeClass('suspect-show');
+    $(".suspect-card").removeClass('suspect-show');
+    $(".suspect-tran").removeClass('suspect-show');
+});
+
+
+//Type out intro text
 $(function(){
    $.fn.TypeByLetter = function(options) {
     var settings = $.extend({
@@ -19,7 +42,7 @@ $(function(){
       function type(i) {
         i = i || 0;
         $object.append(arrayOfText[i]);
-        console.log(arrayOfText[i]);
+        //console.log(arrayOfText[i]);
         if (i < arrayOfText.length) {
           i++;
           setTimeout(function() {

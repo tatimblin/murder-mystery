@@ -1,4 +1,7 @@
-<div class="slide">
+ <div class="slide">
+  
+
+   
     <div class="suspect-bio">
         <div class="suspect-bio-item">
             <div class="suspect-bio-item-img" style="
@@ -16,6 +19,36 @@
             <p>
                 {{ post.content }}
             </p>
+            <!-- The Modal -->
         </div>
     </div>
+    <div class="suspect-link">
+        <div class="tranBtn suspect-link-item">
+            <p>Transcript</p>
+        </div>
+        <div class="cardBtn suspect-link-item">
+            <p>ID Card</p>
+        </div>
+    </div>
+    
+       <div id="tranModal" class="tranModal suspect-modal">
+
+            <!-- Modal content -->
+            <div class="suspect-modal-content">
+                <div class="suspect-tran">
+                   <span class="close">
+                       &times;
+                    </span>
+                    <img src="{{site.baseurl}}/img/suspect/{{post.slug}}/fullShot.png" alt="Transcript">
+                </div>
+                <div class="suspect-card">
+                   <span class="close">
+                       &times;
+                    </span>
+                    {% include id.html %}
+                </div>
+            </div>
+
+        </div>
+    
 </div>

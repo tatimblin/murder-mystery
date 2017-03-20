@@ -25,7 +25,7 @@
                 line-height: 2.2em;
                 opacity: 0;
                 transform: translateY(50px);
-                transition: all 750ms ease-out 300ms;
+                transition: all 600ms ease-out 300ms;
             }
         }
     }
@@ -68,3 +68,84 @@
         }
     }
 }
+
+.suspect-link {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    z-index: 100;
+    a {
+        color: $c-text;
+        text-decoration: none;
+    }
+    &-item {
+        margin: 0 40px 0 0;
+        a:hover {
+            text-decoration: none;
+        }
+        p {
+            padding: 2px 2px;
+            background-color: none;
+            border-bottom: 2px solid $c-text;
+            transition: all 400ms ease-in-out;
+            &:hover {
+                background-color: $c-text;
+                color: $c-bg;
+            }
+        }
+    }
+}
+
+// MODAL
+/* The Modal (background) */
+.suspect-modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 50px;
+    left:0; right: 0;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Modal Content/Box */
+.suspect-modal-content {
+    //margin: 15% auto; /* 15% from the top and centered */
+}
+
+.suspect-tran, .suspect-card {
+    display:none;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.suspect-card {
+    margin: 15% auto; /* 15% from the top and centered */
+}
+.suspect-tran {
+    margin: 0% auto;
+}
+
+.suspect-show {
+    display: block !important;
+}
+
+
+
+
+
