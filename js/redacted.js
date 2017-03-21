@@ -30,7 +30,7 @@ allQuestions[3] = {
 };
 allQuestions[4] = {
     question: "Who risked ruining their family reputation?",
-    choices: ["Ethan", "Simon", "William", "Alice" ],
+    choices: ["Edwin", "Simon", "William", "Alice" ],
     correctAnswer: 3
 };
 allQuestions[5] = {
@@ -45,7 +45,7 @@ allQuestions[6] = {
 };
 allQuestions[7] = {
     question: "Who was believed to be sabotaging Raytheon Technologies?",
-    choices: ["Simon","Ethan", "Alice", "Theodore"],
+    choices: ["Simon","Edwin", "Alice", "Theodore"],
     correctAnswer: 3
 };
 allQuestions[8] = {
@@ -55,7 +55,7 @@ allQuestions[8] = {
 };
 allQuestions[9] = {
     question: "Who was resentful towards Robert?",
-    choices: ["Theodore","Ethan", "Alice", "Simon"],
+    choices: ["Theodore","Edwin", "Alice", "Simon"],
     correctAnswer: 1
 };
 allQuestions[10] = {
@@ -65,7 +65,7 @@ allQuestions[10] = {
 };
 allQuestions[11] = {
     question: "Who was resentful of how their life turned out?",
-    choices: ["Ethan", "Simon", "Alice", "Theodore"],
+    choices: ["Edwin", "Simon", "Alice", "Theodore"],
     correctAnswer: 1
 };
 allQuestions[12] = {
@@ -75,7 +75,7 @@ allQuestions[12] = {
 };
 allQuestions[13] = {
     question: "Who was constantly belittled by Robert?",
-    choices: ["William", "Alice", "Ethan",  "Theodore"],
+    choices: ["William", "Alice", "Edwin",  "Theodore"],
     correctAnswer: 0
 };
 allQuestions[14] = {
